@@ -37,7 +37,7 @@
 	vertical-align: middle;
 }
 .profile-table .profile-icon { width: 26px; }
-.profile-table .profile-gap { width: 20px; }
+.profile-table .profile-gap { width: 0px; }
 .science-content .material-table img, .science-content .profile-table img {
 	width: auto;
 	max-width: none;
