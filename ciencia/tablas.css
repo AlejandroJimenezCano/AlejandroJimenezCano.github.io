@@ -1,0 +1,55 @@
+/* Columnas comunes para Docencia y Material extra. */
+.science-content .table-scroll {
+	max-width: 100%;
+	overflow-x: auto;
+	margin: .7rem 0 1.3rem;
+}
+.science-content .material-table {
+	width: 720px;
+	min-width: 720px;
+	table-layout: fixed;
+	margin: 0 auto;
+	border-collapse: separate;
+	border-spacing: 3px;
+}
+.science-content .material-table td {
+	width: auto;
+	padding: 0;
+	vertical-align: top;
+	white-space: normal;
+	overflow-wrap: anywhere;
+}
+.material-table .resource-icon { width: 24px; }
+.material-table .resource-size { width: 120px; }
+.material-table .resource-language { width: 28px; }
+/* La columna del título ocupa el espacio restante en todas las tablas. */
+.science-content .profile-table {
+	width: 510px;
+	min-width: 510px;
+	table-layout: fixed;
+	margin: 0 auto;
+	border-collapse: separate;
+	border-spacing: 6px;
+}
+.science-content .profile-table td {
+	width: auto;
+	padding: 0;
+	vertical-align: middle;
+}
+.profile-table .profile-icon { width: 26px; }
+.profile-table .profile-gap { width: 20px; }
+.science-content .material-table img, .science-content .profile-table img {
+	width: auto;
+	max-width: none;
+	vertical-align: middle;
+}
+.table-scroll:focus-visible {
+	outline: 3px solid #986620;
+	outline-offset: 3px;
+}
+
+/* Tamaño y unidad siempre juntos, sin alterar las columnas del resto. */
+.science-content .material-table td:nth-child(3) {
+	white-space: nowrap;
+	overflow-wrap: normal;
+}
